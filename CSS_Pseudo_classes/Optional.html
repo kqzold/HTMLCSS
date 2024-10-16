@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        input[type=text]:optional {
+            border: 2px dashed grey;
+        }
+
+        input:required {
+            border: 2px dashed red;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <p>Пожалуйста, укажите ваше имя и возрост.</p>
+        <p>
+            Имя:
+            <input type="text" name="name">
+        </p>
+        <p>
+            Возраст:
+            <input type="number" min="18" required name="old" title="Запомните ваш возраст">
+        </p>
+        <p>
+            <input type="submit" value="Отправить">
+        </p>
+    </form>
+</body>
+</html>

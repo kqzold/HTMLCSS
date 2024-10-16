@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>02_Disabled</title>
+    <style>
+        input:default {
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <input type="reset">
+        <input type="submit">
+        <input type="submit">
+        <input type="submit">
+    </form>
+</body>
+</html>
